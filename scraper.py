@@ -6,11 +6,11 @@ import json
 import time
 
 
-job_title = 'writer'
-job_location = 'sri lanka'
+job_title = 'writer' #replace job title
+job_location = 'sri lanka' #replace location
 
 
-driver = webdriver.Chrome('webdriver/chrome/chromedriver')
+driver = webdriver.Chrome('webdriver/chrome/chromedriver') #replace the webdriver location
 
 driver.get("https://www.linkedin.com/jobs")
 
